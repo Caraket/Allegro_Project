@@ -22,7 +22,7 @@ void sprite::Init(ALLEGRO_BITMAP *image, ALLEGRO_DISPLAY *display, int m_maxFram
 	frameHeight = bitmapHeight / animationRows;
 
 
-
+	// So long as the image is set image will = the init image
 	if (image != NULL)
 		sprite::image = image;
 
